@@ -1,0 +1,142 @@
+body{
+  background-color: #009acd;
+}
+
+.nav{
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.nav .row a{
+  color: #edd07d;
+  min-width: 90px;
+}
+
+.photo img{
+  margin-left: 15%;
+  width: 70%;
+  border: 4px #fff solid;
+  border-radius: 100%;
+  box-shadow: 0px 0px 0px 10px #009ACD,
+              0px 0px 0px 11px #FAD379;
+  margin-bottom: 60px;
+}
+
+h1{
+  margin-top: -10px;
+  min-width: 540px;
+  color: white;
+  font-size: 50px;
+}
+
+h2{
+  color: white;
+}
+
+p{
+  font-size: 16px;
+  color: white;
+}
+
+.color{
+  color: #edd07d;
+  font-weight: bold;
+}
+
+a.color:hover{
+  color: #edd07d;
+}
+.information{
+  margin-left: -10%;
+}
+
+.footer{
+  margin-bottom: 100px;
+}
+
+
+
+
+/* ----- */
+
+.portfolio-title{
+  margin-top: -60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.demo-card-square.mdl-card {
+  margin-bottom: 50px;
+  width: 30%;
+  height: 250px;
+  padding: 0px;
+}
+
+.mdl-card__title-text{
+  text-shadow: 0px 1px 15px rgba(0, 0, 0, 1);
+}
+
+.mdl-card__supporting-text{
+  color: #555;
+  font-size: 12px;
+}
+
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+}
+
+.weLoveKatya > .mdl-card__title{
+  background:
+    url('Photos/weLoveKatya.jpg') no-repeat center / cover #46B6AC;
+}
+
+.PGradients > .mdl-card__title{
+  background:
+    url('Photos/PGradients.jpg') no-repeat center / cover #46B6AC;
+}
+
+.Emojify > .mdl-card__title{
+  background:
+    url('Photos/Emojify.jpg') no-repeat center / cover #46B6AC;
+}
+
+.NDH > .mdl-card__title{
+  background:
+    url('Photos/NDH.jpg') no-repeat center / cover #46B6AC;
+}
+
+.middle{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+@media screen and (max-width: 991px){
+    h1{
+      margin-bottom: 50px;
+    }
+    .information{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    p.information, h2.information{
+      max-width: 540px;
+      text-align: left;
+      padding-left: 0;
+    }
+
+    .demo-card-square.mdl-card{
+      width: 100%;
+    }
+
+    .middle{
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .nav{
+      text-align: center;
+    }
+
+}

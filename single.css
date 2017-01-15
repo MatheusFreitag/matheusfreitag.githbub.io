@@ -1,0 +1,48 @@
+
+.demo-card-wide{
+  margin-top: -60px;
+  padding: 0px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  height: 400px;
+}
+
+.weLoveKatya{
+  background: url('./Photos/weLoveKatya.jpg') center / cover;
+}
+
+.PGradients{
+  background: url('./Photos/PGradients.jpg') center / cover;
+}
+
+.Emojify{
+  background: url('./Photos/Emojify-big.png') center / cover;
+}
+
+.NDH{
+  background: url('./Photos/NDH.jpg') center / cover;
+}
+
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.mdl-card__title-text{
+  text-shadow: 0px 1px 15px rgba(0, 0, 0, 1);
+}
+
+.mdl-card__supporting-text{
+  color: #777;
+  font-size: 14px;
+}
+
+.mdl-card__supporting-text h2{
+  color: #777;
+  font-weight: bold;
+  font-size: 18px;
+}
