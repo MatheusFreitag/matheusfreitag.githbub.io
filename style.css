@@ -33,9 +33,14 @@ h2{
   color: white;
 }
 
+p.description.information.col-xs-12{
+  padding-left: 0px;
+  padding-right: 0px;
+}
 p{
   font-size: 16px;
   color: white;
+
 }
 
 .color{
@@ -112,16 +117,49 @@ a.color:hover{
 
 
 @media screen and (max-width: 991px){
+  .mdl-card__title-text{
+    font-size: 2em;
+  }
+
+  .mdl-card__supporting-text{
+    font-size: 1.3em;
+    line-height: 28px;
+  }
+
+  .mdl-button{
+    font-size: 1.4em;
+  }
+
+  .portfolio-title{
+    font-size: 6em;
+  }
+
     h1{
       margin-bottom: 50px;
     }
+
+    p.description.information{
+      font-size: 2.2em;
+      letter-spacing: 1px;
+      line-height: 1.3em;
+    }
     .information{
-        margin-left: 0;
-        text-align: center;
+      margin-left: 0;
+      text-align: center;
+    }
+
+    h2.information{
+      font-size: 2.7em;
+    }
+
+    br{
+      display: block;
+      margin-top: 40px;
+      line-height: 40px;
+
     }
 
     p.information, h2.information{
-      max-width: 540px;
       text-align: left;
       padding-left: 0;
     }
@@ -137,6 +175,7 @@ a.color:hover{
 
     .nav{
       text-align: center;
+      font-size: 2.3em;
     }
 
 }

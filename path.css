@@ -108,6 +108,7 @@ Responsive Stuff
     padding: 5px;
     font-size: 16px
   }
+
 }
 
 @media (max-width: 768px) {
@@ -128,7 +129,6 @@ Responsive Stuff
   .timeline p {
     padding-top: 20px;
   }
-
 
 
 }
