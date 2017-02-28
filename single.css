@@ -54,7 +54,7 @@
 
   .mdl-card__supporting-text{
     font-size: 1.5em;
-    line-height: 28px;
+    line-height: 35px;
   }
 
   .mdl-button{
@@ -62,14 +62,17 @@
   }
 
   .mdl-card__supporting-text h2{
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
 
   .mdl-card__supporting-text li{
     font-size: 1.5em;
+    line-height: 33px;
   }
 
   .mdl-button{
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 1.7em;
   }
 
