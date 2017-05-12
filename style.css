@@ -110,7 +110,7 @@ a.color:hover{
     url('Photos/NDH.jpg') no-repeat center / cover #46B6AC;
 }
 
-.PET .mdl-card__title{
+.PET > .mdl-card__title{
   background:
     url('Photos/PET.png') no-repeat center / cover #46B6AC;
 }
