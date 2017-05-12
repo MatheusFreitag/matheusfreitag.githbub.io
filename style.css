@@ -110,6 +110,11 @@ a.color:hover{
     url('Photos/NDH.jpg') no-repeat center / cover #46B6AC;
 }
 
+.PET .mdl-card__title{
+  background:
+    url('Photos/PET.png') no-repeat center / cover #46B6AC;
+}
+
 .middle{
   margin-left: 5%;
   margin-right: 5%;
