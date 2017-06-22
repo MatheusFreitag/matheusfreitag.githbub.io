@@ -1,9 +1,14 @@
 
+.row{
+  margin-bottom: 100px;
+}
+
 .demo-card-wide{
   margin-top: -60px;
   padding: 0px;
   margin-bottom: 100px;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .demo-card-wide > .mdl-card__title {
@@ -52,6 +57,10 @@
   font-size: 18px;
 }
 
+a.back{
+  color: #edd07d;
+}
+
 @media screen and (max-width: 991px){
   .mdl-card__title-text{
     font-size: 3em;
@@ -81,5 +90,8 @@
     font-size: 1.7em;
   }
 
+  a.back{
+    font-size: 1.5em;
+  }
 
 }
