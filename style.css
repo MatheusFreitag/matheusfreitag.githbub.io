@@ -115,6 +115,16 @@ a.color:hover{
     url('Photos/PET.png') no-repeat center / cover #46B6AC;
 }
 
+.tioPatinhas > .mdl-card__title{
+  background:
+    url('Photos/tioPatinhas.png') no-repeat center / cover #46B6AC;
+}
+
+.wifiPelotas > .mdl-card__title{
+  background:
+    url('Photos/wifiPelotas.PNG') no-repeat center / cover #46B6AC;
+}
+
 .middle{
   margin-left: 5%;
   margin-right: 5%;

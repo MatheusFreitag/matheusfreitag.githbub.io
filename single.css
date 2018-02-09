@@ -37,6 +37,14 @@
   background: url('./Photos/PET.png') center / cover;
 }
 
+.tioPatinhas{
+  background: url('./Photos/tioPatinhas.png') center / cover;
+}
+
+.wifiPelotas{
+  background: url('./Photos/wifiPelotas.PNG') center / cover;
+}
+
 
 .demo-card-wide > .mdl-card__menu {
   color: #fff;
