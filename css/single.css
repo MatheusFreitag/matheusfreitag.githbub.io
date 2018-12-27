@@ -15,34 +15,39 @@
   color: #fff;
   height: 176px;
   height: 400px;
+  padding: 0px;
 }
 
 .weLoveKatya{
-  background: url('./Photos/weLoveKatya.jpg') center / cover;
+  background: url('../Photos/weLoveKatya.jpg') center / cover;
+}
+
+.avaliacaoPresidencial{
+  background: url('../Photos/avaliacaoPresidencial.png') center / cover;
+}
+
+.planosDeGoverno{
+  background: url('../Photos/planosDeGoverno.png') center / cover;
 }
 
 .PGradients{
-  background: url('./Photos/PGradients.jpg') center / cover;
+  background: url('../Photos/PGradients.jpg') center / cover;
 }
 
 .Emojify{
-  background: url('./Photos/Emojify-big.png') center / cover;
+  background: url('../Photos/Emojify-big.png') center / cover;
 }
 
 .NDH{
-  background: url('./Photos/NDH.jpg') center / cover;
-}
-
-.PET{
-  background: url('./Photos/PET.png') center / cover;
+  background: url('../Photos/NDH.jpg') center / cover;
 }
 
 .tioPatinhas{
-  background: url('./Photos/tioPatinhas.png') center / cover;
+  background: url('../Photos/tioPatinhas.png') center / cover;
 }
 
 .wifiPelotas{
-  background: url('./Photos/wifiPelotas.PNG') center / cover;
+  background: url('../Photos/wifiPelotas.PNG') center / cover;
 }
 
 
