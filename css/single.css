@@ -50,6 +50,18 @@
   background: url('../Photos/wifiPelotas.PNG') center / cover;
 }
 
+.distritosNaoDitos{
+  background: url('../Photos/distritosNaoDitos.png') center / cover;
+}
+
+.lyricsExplorationLorde{
+  background: url('../Photos/lyricsExplorationLorde.png') center / cover;
+}
+
+.anp{
+  background: url('../Photos/anp.jpg') center / cover;
+}
+
 
 .demo-card-wide > .mdl-card__menu {
   color: #fff;
