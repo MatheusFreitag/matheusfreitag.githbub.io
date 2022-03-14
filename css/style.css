@@ -105,52 +105,56 @@ a.color:hover {
     color: #fff
 }
 
+.mdl-card__actions.mdl-card--border{
+    padding: 20px 10px;
+}
+
 .avaliacaoPresidencial > .mdl-card__title {
-    background: url('../Photos/avaliacaoPresidencial.png') no-repeat center / cover #46B6AC;
+    background: url('../Photos/avaliacaoPresidencial.png') no-repeat center / cover #5f4938;
 }
 
 .planosDeGoverno > .mdl-card__title {
-    background: url('../Photos/planosDeGoverno.png') no-repeat center / cover #46B6AC;
+    background: url('../Photos/planosDeGoverno.png') no-repeat center / cover #5f4938;
 }
 
 .weLoveKatya > .mdl-card__title {
-    background: url('../Photos/weLoveKatya.jpg') no-repeat center / cover #46B6AC;
+    background: url('../Photos/weLoveKatya.jpg') no-repeat center / cover #5f4938;
 }
 
 .PGradients > .mdl-card__title {
-    background: url('../Photos/PGradients.jpg') no-repeat center / cover #46B6AC;
+    background: url('../Photos/PGradients.jpg') no-repeat center / cover #5f4938;
 }
 
 .Emojify > .mdl-card__title {
-    background: url('../Photos/Emojify.jpg') no-repeat center / cover #46B6AC;
+    background: url('../Photos/Emojify.jpg') no-repeat center / cover #5f4938;
 }
 
 .NDH > .mdl-card__title {
-    background: url('../Photos/NDH.jpg') no-repeat center / cover #46B6AC;
+    background: url('../Photos/NDH.jpg') no-repeat center / cover #5f4938;
 }
 
 .PET > .mdl-card__title {
-    background: url('../Photos/PET.png') no-repeat center / cover #46B6AC;
+    background: url('../Photos/PET.png') no-repeat center / cover #5f4938;
 }
 
 .tioPatinhas > .mdl-card__title {
-    background: url('../Photos/tioPatinhas.png') no-repeat center / cover #46B6AC;
+    background: url('../Photos/tioPatinhas.png') no-repeat center / cover #5f4938;
 }
 
 .wifiPelotas > .mdl-card__title {
-    background: url('../Photos/wifiPelotas.PNG') no-repeat center / cover #46B6AC;
+    background: url('../Photos/wifiPelotas.PNG') no-repeat center / cover #5f4938;
 }
 
 .distritosNaoDitos .mdl-card__title{
-  background: url('../Photos/distritosNaoDitos.png') no-repeat center / cover #46B6AC;
+  background: url('../Photos/distritosNaoDitos.png') no-repeat center / cover #5f4938;
 }
 
 .lyricsExplorationLorde .mdl-card__title{
-  background: url('../Photos/lyricsExplorationLorde.png') no-repeat center / cover #46B6AC;
+  background: url('../Photos/lyricsExplorationLorde.png') no-repeat center / cover #5f4938;
 }
 
 .anp .mdl-card__title{
-  background: url('../Photos/anp.jpg') no-repeat center / cover #46B6AC;
+  background: url('../Photos/anp.jpg') no-repeat center / cover #5f4938;
 }
 
 .middle {
@@ -163,20 +167,21 @@ a.color:hover {
         font-size: 4rem;
         text-align: center;
     }
+    .demo-card-square.mdl-card {
+        height: 600px;
+    }
 
     .mdl-card__title-text {
-        font-size: 2rem;
-        background: linear-gradient(0deg, #333, transparent 100%);
-        padding-left: 20px;
-        padding-top: 30px;
+        font-size: 4rem;
+        padding: 30px 20px 20px 30px;
         width: 100%;
     }
     .mdl-card__supporting-text {
-        font-size: 1.3rem;
-        line-height: 28px;
+        font-size: 3rem;
+        line-height: 3.7rem;
     }
     .mdl-button {
-        font-size: 1.4rem;
+        font-size: 2.8rem;
     }
     .portfolio-title {
         font-size: 6rem;
