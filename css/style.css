@@ -4,12 +4,12 @@ body {
 
 .nav {
     margin-top: 30px;
-    margin-bottom: 100px
+    margin-bottom: 100px;
 }
 
 .nav .row a {
     color: #5f4938;
-    min-width: 90px
+    min-width: 90px;
 }
 
 .photo img {
@@ -18,7 +18,7 @@ body {
     border: 4px #5f4938 solid;
     border-radius: 100%;
     box-shadow: 0 0 0 10px #bda462, 0 0 0 11px #5f4938;
-    margin-bottom: 60px
+    margin-bottom: 60px;
 }
 
 h1 {
@@ -94,114 +94,125 @@ a.color:hover {
 }
 
 .avaliacaoPresidencial > .mdl-card__title {
-    background: url('../Photos/avaliacaoPresidencial.png') no-repeat center / cover #46B6AC
+    background: url('../Photos/avaliacaoPresidencial.png') no-repeat center / cover #46B6AC;
 }
 
 .planosDeGoverno > .mdl-card__title {
-    background: url('../Photos/planosDeGoverno.png') no-repeat center / cover #46B6AC
+    background: url('../Photos/planosDeGoverno.png') no-repeat center / cover #46B6AC;
 }
 
 .weLoveKatya > .mdl-card__title {
-    background: url('../Photos/weLoveKatya.jpg') no-repeat center / cover #46B6AC
+    background: url('../Photos/weLoveKatya.jpg') no-repeat center / cover #46B6AC;
 }
 
 .PGradients > .mdl-card__title {
-    background: url('../Photos/PGradients.jpg') no-repeat center / cover #46B6AC
+    background: url('../Photos/PGradients.jpg') no-repeat center / cover #46B6AC;
 }
 
 .Emojify > .mdl-card__title {
-    background: url('../Photos/Emojify.jpg') no-repeat center / cover #46B6AC
+    background: url('../Photos/Emojify.jpg') no-repeat center / cover #46B6AC;
 }
 
 .NDH > .mdl-card__title {
-    background: url('../Photos/NDH.jpg') no-repeat center / cover #46B6AC
+    background: url('../Photos/NDH.jpg') no-repeat center / cover #46B6AC;
 }
 
 .PET > .mdl-card__title {
-    background: url('../Photos/PET.png') no-repeat center / cover #46B6AC
+    background: url('../Photos/PET.png') no-repeat center / cover #46B6AC;
 }
 
 .tioPatinhas > .mdl-card__title {
-    background: url('../Photos/tioPatinhas.png') no-repeat center / cover #46B6AC
+    background: url('../Photos/tioPatinhas.png') no-repeat center / cover #46B6AC;
 }
 
 .wifiPelotas > .mdl-card__title {
-    background: url('../Photos/wifiPelotas.PNG') no-repeat center / cover #46B6AC
+    background: url('../Photos/wifiPelotas.PNG') no-repeat center / cover #46B6AC;
 }
 
 .distritosNaoDitos .mdl-card__title{
-  background: url('../Photos/distritosNaoDitos.png') no-repeat center / cover #46B6AC
+  background: url('../Photos/distritosNaoDitos.png') no-repeat center / cover #46B6AC;
 }
 
 .lyricsExplorationLorde .mdl-card__title{
-  background: url('../Photos/lyricsExplorationLorde.png') no-repeat center / cover #46B6AC
+  background: url('../Photos/lyricsExplorationLorde.png') no-repeat center / cover #46B6AC;
 }
 
 .anp .mdl-card__title{
-  background: url('../Photos/anp.jpg') no-repeat center / cover #46B6AC
+  background: url('../Photos/anp.jpg') no-repeat center / cover #46B6AC;
 }
 
 .middle {
     margin-left: 5%;
-    margin-right: 5%
+    margin-right: 5%;
 }
 
 @media screen and (max-width: 991px) {
     .mdl-card__title-text {
-        font-size: 2em;
+        font-size: 2rem;
         background: linear-gradient(0deg, #333, transparent 100%);
         padding-left: 20px;
         padding-top: 30px;
-        width: 100%
+        width: 100%;
     }
     .mdl-card__supporting-text {
-        font-size: 1.3em;
-        line-height: 28px
+        font-size: 1.3rem;
+        line-height: 28px;
     }
     .mdl-button {
-        font-size: 1.4em
+        font-size: 1.4rem;
     }
     .portfolio-title {
-        font-size: 6em
+        font-size: 6rem;
     }
     h1 {
-        margin-bottom: 50px
+        margin: 50px auto;
+        font-size: 4rem;
     }
     p.description.information {
-        font-size: 2.2em;
-        line-height: 1.3em
+        font-size: 2.5rem;
+        line-height: 1.3rem;
+
     }
     .information {
         margin-left: 0;
-        text-align: center
+        text-align: center;
     }
     h2.information {
-        font-size: 2.7em
+        font-size: 2.7rem;
     }
     br {
         display: block;
         margin-top: 40px;
-        line-height: 40px
+        line-height: 40px;
     }
     h2.information,
     p.information {
         text-align: left;
-        padding-left: 0
+        padding-left: 0;
+    }
+    .photo {
+        text-align: center;
+    }
+    .photo img {
+        margin: 0px auto;
     }
     .demo-card-square.mdl-card {
-        width: 100%
+        width: 100%;
     }
     .middle {
         margin-left: 0;
-        margin-right: 0
+        margin-right: 0;
     }
     .nav {
         text-align: center;
-        font-size: 2.3em
+        font-size: 2.3rem;
     }
     .btn {
         margin-top: 10px;
-        font-size: 1.7em;
-        width: auto
+        font-size: 2rrem;
+        width: auto;
+    }
+    .social-media {
+        text-align: center;
     }
 }
