@@ -105,10 +105,6 @@ a.color:hover {
     color: #fff
 }
 
-.mdl-card__actions.mdl-card--border{
-    padding: 20px 10px;
-}
-
 .avaliacaoPresidencial > .mdl-card__title {
     background: url('../Photos/avaliacaoPresidencial.png') no-repeat center / cover #5f4938;
 }
@@ -181,6 +177,9 @@ a.color:hover {
     }
     .mdl-button {
         font-size: 2.8rem;
+    }
+    .mdl-card__actions.mdl-card--border{
+        padding: 20px 10px;
     }
     .portfolio-title {
         font-size: 6rem;
