@@ -73,17 +73,25 @@
 
 .mdl-card__supporting-text{
   color: #777;
-  font-size: 14px;
+  font-size: 3rem !important;
+  line-height: 4.3rem !important;
 }
 
 .mdl-card__supporting-text h2{
   color: #777;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 3.8rem !important;
+}
+
+.mdl-card__supporting-text li{
+  color: #777;
+  font-size: 3rem !important;
+  line-height: 4.3rem !important;
 }
 
 a.back{
-  color: #edd07d;
+  color: #5f4938;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 991px){
@@ -116,7 +124,7 @@ a.back{
   }
 
   a.back{
-    font-size: 1.5em;
+    font-size: 3rem;
   }
 
 }
