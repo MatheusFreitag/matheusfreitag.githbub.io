@@ -55,8 +55,20 @@ a.color:hover {
     margin-left: -10%;
 }
 
-.footer {
+.social-media {
     margin-bottom: 100px;
+}
+
+.social-media img {
+    margin: 0px 10px;
+}
+
+.social-media img.github-logo {
+    width: 53px;
+}
+
+.social-media img.linkedin-logo {
+    width: 60px;
 }
 
 .portfolio-title {
@@ -147,6 +159,11 @@ a.color:hover {
 }
 
 @media screen and (max-width: 991px) {
+    .nav .row a {
+        font-size: 4rem;
+        text-align: center;
+    }
+
     .mdl-card__title-text {
         font-size: 2rem;
         background: linear-gradient(0deg, #333, transparent 100%);
@@ -166,11 +183,11 @@ a.color:hover {
     }
     h1 {
         margin: 50px auto;
-        font-size: 4rem;
+        font-size: 6rem;
     }
     p.description.information {
-        font-size: 2.5rem;
-        line-height: 1.3rem;
+        font-size: 3.5rem;
+        line-height: inherit;
 
     }
     .information {
@@ -178,7 +195,7 @@ a.color:hover {
         text-align: center;
     }
     h2.information {
-        font-size: 2.7rem;
+        font-size: 4.7rem;
     }
     br {
         display: block;
@@ -209,10 +226,25 @@ a.color:hover {
     }
     .btn {
         margin-top: 10px;
-        font-size: 2rrem;
-        width: auto;
+        font-size: 3rem;
+        width: 40%;
+        padding: 20px 0px;
     }
     .social-media {
+        margin-top: 40px;
         text-align: center;
     }
+
+    .social-media img {
+       margin: 0 20px;
+    }
+    
+    .social-media img.github-logo {
+        width: 120px;
+    }
+    
+    .social-media img.linkedin-logo {
+        width: 132px;
+    }
+
 }
