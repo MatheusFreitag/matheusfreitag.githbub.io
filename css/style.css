@@ -1,5 +1,5 @@
 body {
-    background-color: #009acd
+    background-color: #bda462;
 }
 
 .nav {
@@ -8,28 +8,28 @@ body {
 }
 
 .nav .row a {
-    color: #edd07d;
+    color: #5f4938;
     min-width: 90px
 }
 
 .photo img {
     margin-left: 15%;
     width: 70%;
-    border: 4px #fff solid;
+    border: 4px #5f4938 solid;
     border-radius: 100%;
-    box-shadow: 0 0 0 10px #009ACD, 0 0 0 11px #FAD379;
+    box-shadow: 0 0 0 10px #bda462, 0 0 0 11px #5f4938;
     margin-bottom: 60px
 }
 
 h1 {
     margin-top: -10px;
     min-width: 540px;
-    color: white;
+    color: #e7e8e3;
     font-size: 50px
 }
 
 h2 {
-    color: white
+    color: #e7e8e3;
 }
 
 p.description.information.col-xs-12 {
@@ -39,24 +39,24 @@ p.description.information.col-xs-12 {
 
 p {
     font-size: 16px;
-    color: white
+    color: #e7e8e3;
 }
 
 .color {
-    color: #edd07d;
+    color: #5f4938;
     font-weight: bold
 }
 
 a.color:hover {
-    color: #edd07d
+    color: #5f4938;
 }
 
 .information {
-    margin-left: -10%
+    margin-left: -10%;
 }
 
 .footer {
-    margin-bottom: 100px
+    margin-bottom: 100px;
 }
 
 .portfolio-title {
