@@ -24,12 +24,12 @@ body {
 h1 {
     margin-top: -10px;
     min-width: 540px;
-    color: #e7e8e3;
+    color: #f2f3f0;
     font-size: 50px
 }
 
 h2 {
-    color: #e7e8e3;
+    color: #f2f3f0;
 }
 
 p.description.information.col-xs-12 {
@@ -39,7 +39,7 @@ p.description.information.col-xs-12 {
 
 p {
     font-size: 16px;
-    color: #e7e8e3;
+    color: #f2f3f0;
 }
 
 .color {
