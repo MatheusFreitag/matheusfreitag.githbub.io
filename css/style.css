@@ -21,7 +21,11 @@ body {
     margin-bottom: 60px;
 }
 
-h1 {
+h1.information {
+    color: #f2f3f0;
+}
+
+h1.portfolio-title {
     margin-top: -10px;
     min-width: 540px;
     color: #f2f3f0;
@@ -34,7 +38,7 @@ h2 {
 
 p.description.information.col-xs-12 {
     padding-left: 0;
-    padding-right: 0
+    padding-right: 0;
 }
 
 p {
@@ -44,7 +48,7 @@ p {
 
 .color {
     color: #5f4938;
-    font-weight: bold
+    font-weight: bold;
 }
 
 a.color:hover {
@@ -166,26 +170,29 @@ a.color:hover {
         font-size: 2rem;
         text-align: center;
     }
+    h1.portfolio-title {
+        min-width: 0px;
+    }
     .demo-card-square.mdl-card {
-        height: 600px;
+        height: 410px;
     }
     .mdl-card__title-text {
-        font-size: 4rem;
+        font-size: 3rem;
         padding: 30px 20px 20px 30px;
         width: 100%;
     }
     .mdl-card__supporting-text {
-        font-size: 2.8rem;
-        line-height: 3.7rem;
+        font-size: 2rem;
+        line-height: 3rem;
     }
     .mdl-button {
-        font-size: 2.8rem;
+        font-size: 2rem;
     }
     .mdl-card__actions.mdl-card--border{
-        padding: 20px 10px;
+        padding: 10px 10px;
     }
     .portfolio-title {
-        font-size: 6rem;
+        font-size: 4rem;
     }
     .name {
         text-align: center;
@@ -223,12 +230,11 @@ a.color:hover {
         width: 50%;
         margin: 0px auto;
     }
-    .demo-card-square.mdl-card {
-        width: 100%;
+    .demo-card-square{
+        margin: 0px 5%;
     }
-    .middle {
-        margin-left: 0;
-        margin-right: 0;
+    .demo-card-square.mdl-card {
+        width: 90%;
     }
     .nav {
         text-align: center;
