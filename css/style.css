@@ -209,9 +209,7 @@ a.color:hover {
         margin-top: 10px;
     }
     br {
-        display: block;
-        margin-top: 0px;
-        line-height: 40px;
+        display: none;
     }
     h2.information,
     p.information {
@@ -243,7 +241,7 @@ a.color:hover {
         padding: 10px 0px;
     }
     .social-media {
-        margin-top: 40px;
+        margin-top: 20px;
         text-align: center;
     }
 
