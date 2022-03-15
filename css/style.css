@@ -222,6 +222,7 @@ a.color:hover {
         text-align: center;
     }
     .photo img {
+        width: 50%;
         margin: 0px auto;
     }
     .demo-card-square.mdl-card {
