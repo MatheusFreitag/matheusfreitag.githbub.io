@@ -4,12 +4,12 @@ body {
 
 .nav {
     margin-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 .nav .row a {
     color: #5f4938;
-    min-width: 90px;
+    font-size: 1.8rem;
 }
 
 .photo img {
