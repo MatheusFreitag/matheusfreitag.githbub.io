@@ -81,3 +81,24 @@ main {
   font-size: 1.2rem;
   margin-top: 4rem;
 }
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .greeting-text {
+    font-size: 4rem;
+  }
+
+  .greeting-text > span {
+    font-size: 2.75rem;
+  }
+
+  .bio {
+    line-height: 2.5rem;
+    font-size: 1.65rem;
+    margin-top: 4rem;
+  }
+}
